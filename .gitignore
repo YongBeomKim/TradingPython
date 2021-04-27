@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# _key.json
+_key.json
+_keys.json
+
 # C extensions
 *.so
 
@@ -32,6 +36,17 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+
+# CSV DataSet
+csv_????/
+*.csv
+*.xls
+*.xlsx
+*.png
+*.jpg
+*.hwp
+*.pdf
+
 
 # Installer logs
 pip-log.txt
@@ -76,6 +91,8 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+**/.ipynb_checkpoints/
+.ipynb_checkpoints/
 
 # IPython
 profile_default/
