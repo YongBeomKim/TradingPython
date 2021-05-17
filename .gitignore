@@ -8,10 +8,23 @@ _key.json
 _keys.json
 
 # 파이썬 증권데이터 분석 제외하기
+gits/**
+**/.git/**
+.ipynb_checkpoints/**
+**/.ipynb_checkpoints/**
 stockpy/
+data/**
+**/data/**
+works/**
+stock-data/**
 
 # C extensions
 *.so
+
+# Python Sub folders
+__pycache__/**
+**/__pycache__/**
+
 
 # Distribution / packaging
 .Python
