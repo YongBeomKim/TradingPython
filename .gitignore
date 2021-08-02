@@ -8,6 +8,8 @@ _key.json
 _keys.json
 
 # 파이썬 증권데이터 분석 제외하기
+works/**
+stock-data/**
 gits/**
 **/.git/**
 .ipynb_checkpoints/**
